@@ -1,0 +1,26 @@
+
+.main{
+    width: 700px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 50px auto;
+    position: relative;
+}
+
+.box{
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    background-color: red;
+    animation: box 4s linear infinite;
+    position: absolute;
+}
+
+@keyframes box {
+    from{
+        left: 0px;
+    }
+    to{
+        left: 500px;
+    }
+}
